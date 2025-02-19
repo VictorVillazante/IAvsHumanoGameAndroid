@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
 
+import com.example.myversusia.R;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -25,7 +27,7 @@ public class MainActivity_IA extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main__i);
+        setContentView(R.layout.activity_main);
         final int[][] inicio=recibe("matriz_inicio");
         solucion=recibe("matriz_fin");
         chronometro=(Chronometer)findViewById(R.id.cronometro);
